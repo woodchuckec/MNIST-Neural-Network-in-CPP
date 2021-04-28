@@ -1,10 +1,11 @@
 Compilation:
-1.	The first step is to compile the program. Open the command prompt on your pc and change the director to the folder containing the program. This is done with the command:
+1.	Once the code is downloaded, the first step is to extract /src/MNIST.zip. This compressed folder must have the four files contained inside extracted and placed in /src/. This is so that the program may properly load the databases.
+2.	The next step is to compile the program. Open the command prompt on your pc and change the director to the folder containing the program. This is done with the command:
 cd “directory to folder containing the program”
-2.	Once the directory is set to the folder containing the program, the compile command must be run to generate an executable file:
+3.	Once the directory is set to the folder containing the program, the compile command must be run to generate an executable file:
 g++ MVector.h MVector.cpp NetworkData.h DataSet.h NetworkIO.h NetworkIO.cpp Node.h Node.cpp Layer.h Layer.cpp InputLayer.h InputLayer.cpp HiddenLayer.h HiddenLayer.cpp PredictionLayer.h PredictionLayer.cpp Network.h TestNetwork.h TestNetwork.cpp TrainNetwork.h TrainNetwork.cpp main.cpp
-3.	You can begin running the program by double clicking the a.exe file. An alternative to this is entering  start a.exe  while the console is still open.
-4.	These steps only need to be ran once, as all that you need in the future is the a.exe file to run the program.
+4.	You can begin running the program by double clicking the a.exe file. An alternative to this is entering  start a.exe  while the console is still open.
+5.	These steps only need to be ran once, as all that you need in the future is the a.exe file to run the program. Alternatively, the file downloaded from github can be used intead of compiling.
 
 Usage:
 
