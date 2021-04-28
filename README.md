@@ -18,8 +18,11 @@ Main Menu: The menu shows after a network has been loaded and has four options:
 	- (d) Exit: this terminates the program.
 
 Tips: Because this program deals with large sets of data and heavy calculations over matrices, it may seem like the program is experiencing difficulties. The following are normal occurrences and do not mean it has crashed:
+	
 	- Upon launch, the first time a training or testing session is ran, the database is loaded. It may take some time to load the database, but do not panic if the program temporarily does not do anything.
+	
 	- When a large training session is run, the program can take up to a few minutes to train. During this time it will not print anything to the console, but do not exit. Instead let it finish training.
+	
 	- A network may have terrible accuracy, even after several training sessions. Training a neural network to accurately predict a digit can take hundreds of thousands of training examples, so do not expect good results after only a few minutes.
 
 How To Train: Training the network can be a confusing process and, without patience, you may see poor results.
