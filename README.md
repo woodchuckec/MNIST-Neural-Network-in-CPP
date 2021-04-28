@@ -13,9 +13,13 @@ Startup: Upon starting the program, the user is prompted to either choose to loa
 
  
 Main Menu: The menu shows after a network has been loaded and has four options:
+	
 	- (a) Train network: this puts the network in training mode. The network attempts to self-correct errors using the backpropagation algorithm while running epochs. The network adjusts itself after each epoch is finished running, and the user can choose the number of epochs and number of images per test.
+	
 	- (b) Test network: this puts the network in testing mode. The network runs a testing data set and keeps track of its success rate, printing the results of each test to the console.
+	
 	- (c) Save network: this saves the network data to the networksav folder. Beware, this overwrites the previous network that was saved.
+	
 	- (d) Exit: this terminates the program.
 
 Tips: Because this program deals with large sets of data and heavy calculations over matrices, it may seem like the program is experiencing difficulties. The following are normal occurrences and do not mean it has crashed:
@@ -28,6 +32,6 @@ Tips: Because this program deals with large sets of data and heavy calculations 
 
 How To Train: Training the network can be a confusing process and, without patience, you may see poor results.
 
-•	Training a fresh network: I recommend running 10,000 epochs at 200 images per epoch. Good learning rates here can range from 0.05 - 0.10. This first run took my network to 50% accurate, but results may vary.
+	- Training a fresh network: I recommend running 10,000 epochs at 200 images per epoch. Good learning rates here can range from 0.05 - 0.10. This first run took my network to 50% accurate, but results may vary.
 
-•	Training an experienced network: I recommend running 25,000 epochs at 250 images per epoch. Good learning rates here can range from 0.005 – 0.01. One of these runs took my network from a 70% accuracy rate to a 75% accuracy rate.
+	- Training an experienced network: I recommend running 25,000 epochs at 250 images per epoch. Good learning rates here can range from 0.005 – 0.01. One of these runs took my network from a 70% accuracy rate to a 75% accuracy rate.
