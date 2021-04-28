@@ -23,5 +23,7 @@ Tips: Because this program deals with large sets of data and heavy calculations 
 	- A network may have terrible accuracy, even after several training sessions. Training a neural network to accurately predict a digit can take hundreds of thousands of training examples, so do not expect good results after only a few minutes.
 
 How To Train: Training the network can be a confusing process and, without patience, you may see poor results.
+
 •	Training a fresh network: I recommend running 10,000 epochs at 200 images per epoch. Good learning rates here can range from 0.05 - 0.10. This first run took my network to 50% accurate, but results may vary.
+
 •	Training an experienced network: I recommend running 25,000 epochs at 250 images per epoch. Good learning rates here can range from 0.005 – 0.01. One of these runs took my network from a 70% accuracy rate to a 75% accuracy rate.
